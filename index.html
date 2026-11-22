@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Spiceroom Kovel — Затишна кав'ярня у Ковелі</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="brand-logo" data-i18n="brand_name">The Spiceroom Kovel</a>
+            <nav class="main-nav" id="mainNav">
+                <a href="index.html" class="nav-link active" data-i18n="nav_home">Головна</a>
+                <a href="about.html" class="nav-link" data-i18n="nav_about">Про нас</a>
+                <a href="services.html" class="nav-link" data-i18n="nav_services">Меню</a>
+                <a href="gallery.html" class="nav-link" data-i18n="nav_gallery">Галерея</a>
+                <a href="contacts.html" class="nav-link" data-i18n="nav_contacts">Контакти</a>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="mobile-menu-toggle" id="menuToggle" aria-label="Меню">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <h1 data-i18n="hero_title">The Spiceroom Kovel — затишна кав'ярня у Ковелі</h1>
+                <p class="hero-subtitle" data-i18n="hero_subtitle">Справжня кавова культура, ароматні напої та неперевершена атмосфера в серці міста.</p>
+                <div class="hero-buttons">
+                    <a href="services.html" class="btn btn-primary" data-i18n="btn_menu">Переглянути меню</a>
+                    <a href="contacts.html" class="btn btn-outline" data-i18n="btn_contacts">Знайти нас</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section features-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="features_heading">Чому обирають нас</h2>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">☕</div>
+                        <h3 data-i18n="feat_1_title">Добірна кава</h3>
+                        <p data-i18n="feat_1_desc">Професійні бариста готують напої з найкращих зернових купажів.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">✨</div>
+                        <h3 data-i18n="feat_2_title">Затишна атмосфера</h3>
+                        <p data-i18n="feat_2_desc">Ідеальне місце для дружніх зустрічей, відпочинку чи роботи за чашкою кави.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🍰</div>
+                        <h3 data-i18n="feat_3_title">Смачні десерти</h3>
+                        <p data-i18n="feat_3_desc">Чудове доповнення до улюбленого кавового напою.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section about-preview">
+            <div class="container about-preview-grid">
+                <div class="about-preview-text">
+                    <h2 data-i18n="about_preview_title">Сучасна кав'ярня у серці Ковеля</h2>
+                    <p data-i18n="about_preview_desc">Ми створені для справжніх поціновувачів якісної кави. Завітайте на вулицю Степана Бандери, 5а, щоб насолодитися улюбленим смаком у приємній обстановці.</p>
+                    <a href="about.html" class="btn btn-primary" data-i18n="btn_read_more">Дізнатися більше</a>
+                </div>
+                <div class="about-preview-image">
+                    <img src="images/photo-01.svg" alt="The Spiceroom Kovel інтер'єр кав'ярні" loading="eager">
+                </div>
+            </div>
+        </section>
+
+        <section class="section cta-section">
+            <div class="container cta-container">
+                <h2 data-i18n="cta_title">Чекаємо на вас щодня!</h2>
+                <p data-i18n="cta_hours">Пн-Нд: 08:00 - 21:00</p>
+                <p data-i18n="cta_address">вулиця Степана Бандери, 5а, Ковель</p>
+                <a href="contacts.html" class="btn btn-accent" data-i18n="btn_visit">Контакти та мапа</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3 data-i18n="brand_name">The Spiceroom Kovel</h3>
+                <p data-i18n="footer_desc">Затишна кав'ярня у Ковелі.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_hours_title">Графік роботи</h4>
+                <p>Пн-Нд: 08:00 - 21:00</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts_title">Контакти</h4>
+                <p>вулиця Степана Бандери, 5а, Ковель</p>
+                <p>Email: thespiceroomkovel@gmail.com</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/thespiceroomkovel" target="_blank" rel="noopener">Instagram</a>
+                    <a href="https://www.google.com/maps/place/The+Spiceroom+Kovel/@51.2185,24.7081,17z" target="_blank" rel="noopener" data-i18n="map_link">Google Maps</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; The Spiceroom Kovel. <span data-i18n="rights">Усі права захищені.</span></p>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
