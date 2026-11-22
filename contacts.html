@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти — The Spiceroom Kovel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="brand-logo" data-i18n="brand_name">The Spiceroom Kovel</a>
+            <nav class="main-nav" id="mainNav">
+                <a href="index.html" class="nav-link" data-i18n="nav_home">Головна</a>
+                <a href="about.html" class="nav-link" data-i18n="nav_about">Про нас</a>
+                <a href="services.html" class="nav-link" data-i18n="nav_services">Меню</a>
+                <a href="gallery.html" class="nav-link" data-i18n="nav_gallery">Галерея</a>
+                <a href="contacts.html" class="nav-link active" data-i18n="nav_contacts">Контакти</a>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="mobile-menu-toggle" id="menuToggle" aria-label="Меню">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 data-i18n="contacts_page_title">Контакти та розташування</h1>
+                <p data-i18n="contacts_page_subtitle">Завітайте до нас у гості або зв'яжіться електронною поштою</p>
+            </div>
+        </section>
+
+        <section class="section contacts-section">
+            <div class="container contacts-grid">
+                <div class="contacts-info">
+                    <div class="contact-card">
+                        <h3 data-i18n="lbl_address">Адреса</h3>
+                        <p>вулиця Степана Бандери, 5а, Ковель, Волинська область, Україна</p>
+                    </div>
+                    <div class="contact-card">
+                        <h3 data-i18n="lbl_hours">Графік роботи</h3>
+                        <p>Пн-Нд: 08:00 - 21:00</p>
+                    </div>
+                    <div class="contact-card">
+                        <h3 data-i18n="lbl_email">Електронна пошта</h3>
+                        <p><a href="mailto:thespiceroomkovel@gmail.com">thespiceroomkovel@gmail.com</a></p>
+                    </div>
+                    <div class="contact-card">
+                        <h3 data-i18n="lbl_socials">Соціальні мережі та карти</h3>
+                        <div class="social-links-block">
+                            <a href="https://www.instagram.com/thespiceroomkovel" target="_blank" rel="noopener" class="btn btn-outline">Instagram</a>
+                            <a href="https://www.google.com/maps/place/The+Spiceroom+Kovel/@51.2185,24.7081,17z" target="_blank" rel="noopener" class="btn btn-primary" data-i18n="map_link">Google Maps</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts-map">
+                    <div class="map-wrapper">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2508.852157585!2d24.7059113!3d51.2185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4725b6a38210332d%3A0x0!2zVHJpZXMgU3BpY2Vyb29tIEtvdmVs!5e0!3m2!1suk!2sua!4v1620000000000!5m2!1suk!2sua" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" title="The Spiceroom Kovel на мапі"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3 data-i18n="brand_name">The Spiceroom Kovel</h3>
+                <p data-i18n="footer_desc">Затишна кав'ярня у Ковелі.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_hours_title">Графік роботи</h4>
+                <p>Пн-Нд: 08:00 - 21:00</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts_title">Контакти</h4>
+                <p>вулиця Степана Бандери, 5а, Ковель</p>
+                <p>Email: thespiceroomkovel@gmail.com</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/thespiceroomkovel" target="_blank" rel="noopener">Instagram</a>
+                    <a href="https://www.google.com/maps/place/The+Spiceroom+Kovel/@51.2185,24.7081,17z" target="_blank" rel="noopener" data-i18n="map_link">Google Maps</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; The Spiceroom Kovel. <span data-i18n="rights">Усі права захищені.</span></p>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
